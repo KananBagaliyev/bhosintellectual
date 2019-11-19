@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+.logo{
+    width: 32px;
+}
+
+.carouselimages{
+
+    height:470px
+}
+
+
+
+.textedit{
+
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+.tablex{
+    overflow: hidden;
+    border-radius:1em ;
+}
+
+.tablex td,.tablex th {
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem ;
+    
+  }
+
+ 
+  
+  th, td {
+    padding-right: 28px;
+    padding-bottom:2px ;
+
+  }
+  th{
+      font-weight: bold;
+      
+  }
+
+  .position{
+      position:Sticky;
+      top:0
+  }
+
+  hr{background-color:black}
+
+  .staff{
+      width:150px;
+      transition: ease-in-out;
+      transition-duration: 0.5s;
+  }
+
+
+
+  h5{
+      margin-top: 25px;
+  }
+
+.staff:hover{
+
+    transform: scale(1.2);
+    cursor: pointer;
+    
+  }
+
+ 
+  h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 85px;
+    padding-left:10px;
+    padding-right: 10px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.design{
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color: #454d55;
+    border:4px solid #454d55;
+    border-radius:5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 135px;
+}
+
+a{
+    color: black;
+    
+}
+
+.copyright{
+    font-weight: bold;
+    margin-bottom:25px;
+    text-decoration: none;
+}
+
+
+#staff{
+
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+
+
+
+@media (min-width: 576px) { 
+    .carouselimages{
+        height:350px
+    }
+
+    .tablex{
+        margin-top:15px;
+        justify-content: center;
+    }
+    .design{
+        width:80%
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+@media (min-width: 768px) { 
+    .carouselimages{
+        height:470px
+    }
+    .tablex{
+        margin-top:15px;
+        justify-content: center;
+    }
+    .design{
+        width:50%
+    }
+    .textedit{
+        font-size: 100%;
+    }
+    
+    
+   
+ }
+
+ @media (max-width: 576px) { 
+    .carouselimages{
+        height:330px
+    }
+
+    .tablex{
+        margin-top:15px;
+        justify-content: center;
+    }
+    .iconchanges{
+        margin-top: 20px;
+    }
+    .button{
+        width:90px ;
+        
+    }
+    .design{
+        width:100%
+    }
+    .textedit{
+        font-size: 80%;
+        background: rgba(0, 0, 0,0.3);
+    }
+    
+    
+    
+}
+ 
+
+
+
+
+.center {
+    position: relative;
+    top: 35%;
+    transform: translate(-50%, -50%);
+  }
+
+  .legend{
+    width:150px;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+  }
+
+  .legend:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+
+.trophy{
+    width: 250px;
+}
+
+.about>h3{
+    margin-left: 25px;
+}
+
+.teams{
+    width: 350px;
+    /* border: 1px #454d55 solid; */
+    border-radius:5%;
+    box-shadow: 5px 5px 5px #888;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.members{
+    margin-left: 5px !important;
+
+}
+
+
+
+
+
